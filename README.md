@@ -1,49 +1,56 @@
-# 《Go Web 编程》
-这本书目前有多个版本:
+***Construir Aplicación Web con Golang***
+=========================================
 
-[中文开始阅读](<https://github.com/astaxie/build-web-application-with-golang/blob/master/ebook/preface.md>)
+#### Nota: Actualmente el libro está en fase de ser traducido y posteriormente se publicará la versión final junto con su versión en pdf.
 
-[日文开始阅读](<https://github.com/astaxie/build-web-application-with-golang/blob/master/ja/ebook/preface.md>)
+<!-- [Download PDF](url_de_pdf) -->
 
-[English Version](<https://github.com/astaxie/build-web-application-with-golang/blob/master/en/eBook/preface.md>)
+### ***Comentarios del traductor***
 
-目前这本书已经出版，如果你觉得内容还可以，你可以通过下面几个途径购买，谢谢支持：
+Esta es una versión en adaptada al Castellano de [《Go Web编程》], la versión original fue estrita por [AstaXie] y traducida por [ruben96].
 
-- [chinapub](http://product.china-pub.com/3767290)
-- [当当网](http://product.dangdang.com/product.aspx?product_id=23231404)
-- [京东](http://book.jd.com/11224644.html)
-- [Amazon](http://www.amazon.cn/Go-Web%E7%BC%96%E7%A8%8B-%E8%B0%A2%E5%AD%9F%E5%86%9B/dp/B00CHWVAHQ/ref=sr_1_1?s=books&ie=UTF8&qid=1369323453&sr=1-1)
+Este libro trata sobre como construir aplicaciones web en Go. En los primeros capítulos del libro, el autor repasa los conceptos básicos sobre Go. Sin embargo. para una experiencia de lectura optima, debes de tener unos conocimientos básicos del lenguaje Go y el concepto de una aplicación web. Si eres completamente nuevo programando, este libro no preveee del material suficientemente introductorio para empezar.
 
-![](ebook/images/ebook.jpg)
+Si algo no está claro debido a cuestiones de redacción o del lenguaje, no dude en pedirme que mejore la traducción.
 
-# 通过捐款支持本书
-如果你喜欢这本《Go Web编程》的话， 可以通过捐款的方式， 支持作者继续更新本书或者做出其他更多好玩好用的开源应用： 比如为本书修补漏洞、添加更多有趣的章节， 或者发行有更多更棒内容的下一版，或者改善beego等等。
+### Propósito
 
-支付宝扫描捐款: ![](ebook/images/alipay.png)
+Debido a que tengo interes en el desarrollo de aplicaciones Web, use mi tiempo libre para escribir este libro como una versión open source. Eso no significa que tengo una gran abilidad para desarrollar aplicaiones web; Me gustaría compartir lo que he hecho con Go en la construcción de aplicaciones web.
 
-English Donate:[donate](http://beego.me/donate)
+- Para aquellos que estan trabajando con PHP/Python/Ruby, aprenderan como contruir aplicaciones web con Go.
 
-## 交流
-欢迎大家加入QQ群：259316004 《Go Web编程》专用交流群
+- Para aquellos que estan trabajando con C/C++, aprenderan como funciona la web.
 
-论坛交流：[http://bbs.go-china.org/](http://bbs.go-china.org/)
+Creo que el propósito de estudiar es compartir con otras personas. Lo que me hace más feliz en mi vida es compartir todo lo que he conocido con más personas.
 
-## 致谢
-首先要感谢Golang-China的QQ群102319854(已满)，请加2群(384414723),里面的每一个人都很热心，同时要特别感谢几个人
+### Donación
 
- - [四月份平民](https://plus.google.com/110445767383269817959) (review代码)
- - [Hong Ruiqi](https://github.com/hongruiqi) (review代码)
- - [BianJiang](https://github.com/border) (编写go开发工具Vim和Emacs的设置)
- - [Oling Cat](https://github.com/OlingCat)(review代码)
- - [Wenlei Wu](mailto:spadesacn@gmail.com)(提供一些图片展示)
- - [polaris](https://github.com/polaris1119)(review书)
- - [雨痕](https://github.com/qyuhen)(review第二章)
+Si te gusta este libro, puedes compartir este [link](https://me.alipay.com/astaxie) con tus amigos y donar al autor original, para ayudarle a escribir más libros de una manera mejor, más  útil y con un contenido más interesante.
 
-## 授权许可
-除特别声明外，本书中的内容使用[CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)（创作共用 署名-相同方式共享3.0许可协议）授权，代码遵循[BSD 3-Clause License](<https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>)（3项条款的BSD许可协议）。
+### Intercambio de aprendizaje en Go
 
-## 开始阅读
-[开始阅读](<https://github.com/astaxie/build-web-application-with-golang/blob/master/ebook/preface.md>)
+Si sabes que es QQ, únete al grupo 259316004. Si no, sigue este [link](http://download.imqq.com/download.shtml) para obtener más detalles. También, puedes unirte a nuestro [foro](http://bbs.beego.me).
 
+### Agradecimientos
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/44c98c9d398b8319b6e87edcd3e34144 "githalytics.com")](http://githalytics.com/astaxie/build-web-application-with-golang)
+Lo primero, tengo que dar las grácias a los miembros de Golang-China en el grupo de QQ 102319854, todos son muy agradables y atentos. A continuación, tengo que dar las gráncias a las siguientes personas que me ayudaron mucho cuando escribia este libro.
+
+ - [四月份平民 April Citizen](https://plus.google.com/110445767383269817959) (revisión de código)
+ - [洪瑞琦 Hong Ruiqi](https://github.com/hongruiqi) (revisión de código)
+ - [边  疆 BianJiang](https://github.com/border) (Escribió las configuraciones sobre Vim y Emacs para el desarrollo con Go)
+ - [欧林猫 Oling Cat](https://github.com/OlingCat)(revisión de código)
+ - [吴文磊 Wenlei Wu](mailto:spadesacn@gmail.com)(proporcionó algunas capturas)
+ - [北极星 Polaris](https://github.com/polaris1119)(revisión del libro completo)
+ - [雨  痕 Rain Trail](https://github.com/qyuhen)(revisión del capítulo 2 y 3)
+
+### Licencia
+
+Este libro esta protegido bajo la [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/),
+el código es bajo licencia [BSD 3-Clause License](<https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>), a menos que se especifique lo contrario.
+
+### Comienzo
+
+[Index](./eBook/preface.md)
+[AstaXie]:https://github.com/astaxie
+[ruben96]:https://github.com/ruben96
+[《Go Web编程》]:https://github.com/astaxie/build-web-application-with-golang
